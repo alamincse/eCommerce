@@ -1,0 +1,109 @@
+a {
+    text-decoration: none;
+}
+
+ul,
+ul ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu > li > a {
+    background-color: #616975;
+    /*border-bottom: 1px solid #F15A23;*/
+    -webkit-box-shadow: inset 0px 1px 0px 0px #878e98;
+    -moz-box-shadow: inset 0px 1px 0px 0px #878e98;
+    box-shadow: inset 0px 1px 0px 0px #878e98;
+    /*line-height: 2.75em;
+    text-indent: 2.75em;*/
+    display: block;
+    position: relative;
+    font-family: 'Noto Serif', 'Noto Sans',"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0px 1px 0px rgba(0,0,0,.5);
+}
+
+.menu ul li a {
+    background: #272727;
+    border-bottom: 1px solid #efeff0;
+    width: 100%;
+    height: 2.75em;
+    line-height: 2.75em;
+    text-indent: 2.75em;
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.923em;
+    font-weight: 400;
+    /*color: #878d95;*/
+    color: white;
+}
+.menu ul li a:hover {
+    /*background: #00AFE0;*/
+    background: #446CB3;
+    /*color: red;*/
+}
+.menu ul li:last-child a {
+    /*border-bottom: 1px solid #F15A23;*/
+    border-bottom: 1px solid #ccc;
+}
+
+.menu > li > a:hover,
+.menu > li > a.active {
+    text-decoration: none;
+    background-color: #F15A23;
+    border-bottom: 1px solid #103c56;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #6ad2ef;
+    -moz-box-shadow: inset 0px 1px 0px 0px #6ad2ef;
+    box-shadow: inset 0px 1px 0px 0px #6ad2ef;
+}
+.menu > li > a.active {
+    border-bottom: 1px solid #1a638f;
+}
+
+.menu > li > a:before {
+    content: '';
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+    font-size: 36px;
+    height: 1em;
+    width: 1em;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin: -.5em 0 0 0;
+}
+.item1 > a:before {
+    background-position: 0 0;
+}
+.item2 > a:before {
+    background-position: -38px 0;
+}
+.item3 > a:before {
+    background-position: 0 -38px;
+}
+.item4 > a:before {
+    background-position: -38px -38px;
+}
+.item5 > a:before {
+    background-position: -76px 0;
+}
+
+.menu > li > ul li a:before {
+    content: '▶';
+    font-size: 8px;
+    color: #bcbcbf;
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    top: 0;
+    left: -2.7em;
+}
+ 
+.menu > li > ul li:hover a,
+.menu > li > ul li:hover a span,
+.menu > li > ul li:hover a:before {
+    /*color: #32373D;*/
+    text-decoration: none;
+}

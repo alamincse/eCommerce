@@ -1,0 +1,157 @@
+/*
+Theme Name: eCommerce
+Theme URI: http://
+Author: AL-AMIN
+Author URI: http://
+Description: Virtual Shopping Center
+Version: 1.0
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+applet,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  font-style: inherit;
+  font-weight: inherit;
+  vertical-align: baseline;
+  font-family: 'Noto Serif', 'Noto Sans', "Helvetica Neue", Helvetica, sans-serif;
+}
+.top-menu {
+  background: #fdfdfd;
+  border-top: 3px solid #F15A23;
+  border-left: 2px solid #F15A23;
+}
+.top-menu a span.site-title {
+  color: #F15A23;
+}
+.top-menu .u-img img {
+  width: 50px;
+  height: 50px;
+}
+.top-menu .res-btn {
+  background: #EE9962;
+  border: none;
+}
+.main-content {
+  margin-top: 63px;
+}
+.main-content .left-menu {
+  margin-left: -15px;
+}
+.main-content ul.dash-left-nav {
+  background: #616975;
+  border-left: 2px solid #F15A23;
+  /*min-height: 542px;*/
+  height: 100%;
+  padding-bottom: 10px;
+}
+.main-content ul.dash-left-nav li {
+  border-bottom: 1px solid #555;
+  margin-left: -7px;
+}
+.main-content ul.dash-left-nav li a {
+  margin-left: 5px;
+  color: #fff;
+  font-weight: bold;
+  -webkit-transition: padding-left 0.5s, color 1s;
+  -moz-transition: padding-left 0.5s, color 1s;
+  transition: padding-left 0.5s, color 1s;
+}
+.main-content ul.dash-left-nav li a:hover {
+  background: #F15A23;
+  padding-left: 5px;
+  text-decoration: none;
+  color: white;
+  -webkit-border-top-right-radius: 2px;
+  -moz-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.breadcrumb {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  padding: 8px 0;
+}
+.breadcrumb i {
+  font-size: 15px;
+}
+.breadcrumb li {
+  padding: 0 20px;
+  position: relative;
+  text-shadow: 0 1px 0 #fff;
+  white-space: nowrap;
+}
+.breadcrumb li a:hover {
+  text-decoration: none;
+}
+.breadcrumb li + li:before {
+  content: "";
+  padding: 0;
+}
+.breadcrumb li:after {
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  content: "";
+  display: block;
+  height: 26px;
+  position: absolute;
+  right: -5px;
+  top: -3px;
+  transform: rotate(-45deg);
+  width: 26px;
+}
+#preview p img {
+  height: 77px;
+  width: 100px;
+}
