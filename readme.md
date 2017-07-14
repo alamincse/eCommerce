@@ -25,7 +25,8 @@ http://localhost:8000/siteadmin
 Where username and password are -
 
 
-Username: admin@admin.com
+Username: admin@gmail.com
+
 Password: admin
 
 
