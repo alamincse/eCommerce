@@ -2,33 +2,36 @@
 
 This is eCommerce Project.
 
-Download this project and run it by your CMD
+Just download this repository and store it on your server directory.
+
+Now access your project by using **terminal(CMD)** and use this command bellow for **Laravel default server**
 
 
+```php
 php artisan serve
+```
+
+And now access your project by using bellow this **URL**
+
+```php
+http://localhost:8000
+```
 
 
 
-And the Laravel gives you a default url. The url is -
+Also you can access your project **Admin Panel** by-
 
-
-http://localhost:8000/
-
-
-
-Now you can access your project. And also you can access your Admin Panel by-
-
-
+```php
 http://localhost:8000/siteadmin
-
+```
 
 Where username and password are -
 
-
+```php
 Username: admin@gmail.com
 
 Password: admin
-
+```
 
 **All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
 
