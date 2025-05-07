@@ -40,4 +40,4 @@ Password: admin
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
 ## Author
-[Al-Amin Sarker](http://parbona.net)
+Al-Amin Sarker
